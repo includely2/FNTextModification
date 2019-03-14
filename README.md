@@ -1,6 +1,7 @@
 # FNTextModification
 ## 1. FNText (Original version)
 ### Description
+[FNText: A Fast Neural Model for Efﬁcient Text Classiﬁcation](emnlp2018.pdf)
 ### Structure
 ![fntext](fntext.jpg)
 ### Results
