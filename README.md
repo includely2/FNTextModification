@@ -18,15 +18,16 @@ Acc|200|300|400|500|600
 20|
 ## 2. FNText with positional embedding
 ### Description
-Inspired by [Attension Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need), FNText is modified with positional embedding. Positional embedding vectors are directly added with word embedding vectors to construct the final vectors which are fed into the model. ![fn](fn.jpg)
+Inspired by [Attension Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need), FNText is modified with positional embedding. Positional embedding vectors are directly added with word embedding vectors to construct the final vectors which are fed into the model.  
+![fn](fn.JPG)  
   
 Four types of positional embedding have been implemented
-* Fixed positional embedding(PE)
-![pe_ori](pe_ori.jpg)
-![pe_mod](pe_mod.jpg)
+* Fixed positional embedding(PE)  
+![pe_ori](pe_ori.JPG)
+![pe_mod](pe_mod.JPG)
 * Learned positional embedding
-* Positional embedding with fixed parameter
-![fn_la](fn_la.jpg)
+* Positional embedding with fixed parameter  
+![fn_la](fn_la.JPG)  
 * Positional embedding with learned parameter
 ### Structure
 ![fntext_mod](fntext_mod.jpg)
