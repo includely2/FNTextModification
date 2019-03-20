@@ -19,9 +19,10 @@ Inspired by [Attention Is All You Need](http://papers.nips.cc/paper/7181-attenti
   
 Four types of positional embedding have been implemented
 * Fixed positional embedding(PE)  
-![pe_ori](pe_ori.JPG)
-![pe_mod](pe_mod.JPG)
-* Learned positional embedding
+Original version: ![pe_ori](pe_ori.JPG)  
+Used in modification: ![pe_mod](pe_mod.JPG)
+* Learned positional embedding  
+Initialize the PE table with fixed PE
 * Positional embedding with fixed parameter  
 ![fn_la](fn_la.JPG)  
 * Positional embedding with learned parameter
